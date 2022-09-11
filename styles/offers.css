@@ -1,0 +1,52 @@
+.section2{
+    width: 100%;
+    height: 439px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.offers{
+    width: 50%;
+    height: 90%;
+    margin-top: 43px;
+    background-color: white;
+    border-radius: 16px;
+}
+.offername{
+    width: 100%;
+    height: 60px;
+}
+.offeritempicture{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+.productlist{
+    width: 28%;
+    height: 88%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 10px;
+    box-sizing: border-box;
+
+}
+.productlist p{
+    margin: 0;
+}
+.section2-image{
+    width: 75%;
+    height: 44%;
+
+}
+.productname{
+    width: 80%;
+}
+.price{
+    width: 80%;
+}
