@@ -175,10 +175,25 @@
 }
 .diwalioffer{
   width: 100%;
-  height: 74px;
+  height: 553px;
+  display: flex;
+  flex-direction: column;
+  
 }
-.diwalioffer span{
+.diwali{
+    height: 100%;
     font-size: 24px;
     font-weight: 700;
-    margin-bottom: 10px;
+    text-align: start;
+    margin-top: 40px;
+}
+.diwaliimg{
+  border-radius: 15px;
+  margin-top: 20px;
+  width: 100%;
+  transition: 0.5s;
+
+}
+.diwaliimg:hover{
+  margin-top: 15px;
 }

@@ -1,0 +1,137 @@
+.firstsale {
+  width: 100%;
+  height: 733px;
+  display: flex;
+  flex-direction: column;
+}
+.heading{
+  height: 80px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.heading span {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: -8px;
+}
+.firstsaleimages {
+  width: 100%;
+  height: 660px;
+  display: flex;
+  flex-direction: row;
+  gap: 1.5%;
+}
+.firstsaleimg1 {
+  width: 49.5%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  justify-content: center;
+  position: relative;
+}
+.firstsaleimg1 img {
+  width: 100%;
+  border-radius: 20px;
+}
+.firstsaleimg1 div img {
+  border-radius: 20px;
+}
+.saleitem{
+    position: absolute;
+    display: flex;
+    flex-direction: column; 
+    left: 50px;
+    top: 450px;
+}
+.saletime{
+    background-color: red;
+    color: white;
+    border-radius: 16px;
+    font-size: 12px;
+    padding: 4px 8px;
+    display: flex;
+}
+.saleitemname{
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: bold;
+}
+.saleitem p{
+    font-size: 12px;
+    color: #777;
+    font-weight: 700;
+    margin-top: 80px;
+}
+.saleitem p span{
+    font-size: 17px;
+    color:rgb(232,89,68);
+}
+.saleitem21{
+  position: absolute;
+  width: 34%;
+  display: flex;
+  flex-direction: column; 
+  left: 40px;
+  top: 54px;
+  gap: 20px;
+}
+.saletime21{
+  background-color: red;
+  color: rgb(255, 255, 255);
+  border-radius: 16px;
+  font-size: 12px;
+  padding: 4px 8px;
+  display: flex;
+  width: 85%;
+}
+.saleitemname21{
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+}
+.saleitem21 p{
+  font-size: 12px;
+  color: #777;
+  font-weight: 700;
+  margin-top:  74px;
+}
+.saleitem21 p span{
+  font-size: 17px;
+  color:rgb(232,89,68);
+}
+.saleitem22{
+  position: absolute;
+  width: 24%;
+  display: flex;
+  flex-direction: column; 
+  left: 40px;
+  top: 373px;
+  gap: 20px;
+}
+.saletime22{
+  background-color: red;
+  color: rgb(255, 255, 255);
+  border-radius: 16px;
+  font-size: 12px;
+  padding: 4px 8px;
+  display: flex;
+  width: fit-content;
+}
+.saleitemname22{
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+  width: fit-content;
+}
+.saleitem22 p{
+  font-size: 12px;
+  color: #777;
+  font-weight: 700;
+  margin-top:  114px;
+}
+.saleitem22 p span{
+  font-size: 17px;
+  color:rgb(232,89,68);
+}
