@@ -1,9 +1,9 @@
 .section3 {
   width: 100%;
-  height: 773px;
+  height: 775px;
 }
 .section3items {
-    height: 693px;
+    height: 665px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   grid-template-rows: 49% 49%;
@@ -14,80 +14,99 @@
     "phone5 phone6 phone7 phone8 phone9";
 }
 
-.phone1 {
+#phone1 {
   grid-area: phone1;
   background-color: white;
+  border-radius: 15px;
 }
-.phone2 {
+#phone2 {
   grid-area: phone2;
 }
 
-.phone3 {
+#phone3 {
   grid-area: phone3;
 }
 
-.phone4 {
+#phone4 {
   grid-area: phone4;
 }
 
-.phone5 {
+#phone5 {
   grid-area: phone5;
 }
 
-.phone6 {
+#phone6 {
   grid-area: phone6;
 }
 
-.phone7 {
+#phone7 {
   grid-area: phone7;
 }
 
-.phone8 {
+#phone8 {
   grid-area: phone8;
 }
 
-.phone9 {
+#phone9 {
   grid-area: phone9;
 }
-.phone2,
-.phone3,
-.phone4,
-.phone5,
-.phone6,
-.phone7,
-.phone8,
-.phone9{
-    background-color: white;
-    border-radius: 15px;
 
-}
-.phone1  img{
+
+.phone-card-image-large{
     width: 100%;
     height: 100%;
     border-radius: 15px;
 }
-.phone2 div img,
-.phone3 div img,
-.phone4 div img,
-.phone5 div img,
-.phone6 div img,
-.phone7 div img,
-.phone8 div img,
-.phone9 div img{
-    width: 75%;
-    height: 100%;
-    border-radius: 15px;
-}
-.phone2 div,
-.phone3 div,
-.phone4 div,
-.phone5 div,
-.phone6 div,
-.phone7 div,
-.phone8 div,
-.phone9 div{
-    display: flex;
-    justify-content: center;
-    background-color: white;
+
+.phone-card-image{
+  width: 75%;
+  border-radius: 15px;
+  height: fit-content;
 }
 
+.phonedetails{
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  justify-content: space-evenly;
+  border-radius: 15px;  
+  background-color: white;
+  border-radius: 15px;
+  transition: transform 250ms;
+}
+
+.phonedetails :hover{
+  transform: translateY(-10px);
+}
+
+.section3img{
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  top: 20px;
+  
+}
+.section3phonedetails{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: space-between;
+}
+.section3phonename{
+  font-size: 16px;
+  font-weight: bold;
+  width: 100%;
+}
+.section3phoneprice{
+  color: #777;
+  font-size: 12px;
+  font-weight: bold;
+}
+.section3phoneprice span{
+  font-size: 16px;
+  line-height: 20px;
+  color: #e6462e;
+
+}
