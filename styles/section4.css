@@ -1,22 +1,103 @@
 .section4{
-    width: 100%;
+  width: 100%;
+  margin-bottom: 30px;
 }
+
 .newarrival{
     width: 100%;
     height: 672px;
     display: flex;
-    flex-direction: column;
-    gap: 20px;
+    flex-direction: row;
+    justify-content: space-between;
 }
-.newarrivalcard {
-    width: 100%;
-    height: 50%;
-    display: flex;
-    gap: 22px;
-}
-.newarrivalcard div{
-    width: 50%;
+.phonecoloumn{
+    width: 49.35%;
     height: 100%;
-    background-color: white;
-    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+.phonecard{
+  width: 100%;
+  height: 49%;
+  border-radius: 15px;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  transition: transform 250ms;
+  align-items: center;
+}
+.phonecard:hover{
+  transform: translateY(-1px);
+}
+.sec4phonecard{
+  width: 46%;
+  height: 67%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.sec4phonedetails{
+  width: 100%;
+  height: 100%;
+}
+.sec4phoneimg{
+  width: 39%;
+  height: 67%;
+}
+.sec4phoneimg img{
+  width: 100%;
+}
+.phonestatus{
+  width: 100%;
+  height: 30px;
+}
+.phonestatus p{
+  padding: 4px 8px;
+  width: fit-content;
+  background-color:#21B9D3;
+  margin: 0;
+  border-radius: 15px;
+  font-size: 12px;
+  color: white;
+}
+.sec4phonename{
+  width: 99%;
+  height: 62px;
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 12px;
+}
+.sec4phonename p{
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 12px;
+  padding: 0;
+}
+.sec4phonetitle{
+  width: 100%;
+  height: 28%;
+}
+.sec4phonetitle p{
+  opacity: .5;
+  font-size: 16px;
+  padding: 0;
+}
+.sec4phoneprice{
+  height: 10px;
+  width: 100%;
+}
+.sec4phoneprice p{
+  line-height: 0;
+  margin-top: 1px;
+  font-size: 12px;
+  color: #777;
+  font-weight: bold;
+}
+.sec4phoneprice p span{
+  font-size: 16px;
+  color: #e6462e;
+  font-weight: bold;
 }

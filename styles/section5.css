@@ -1,0 +1,134 @@
+.section5 {
+    width: 100%;
+    height: 775px;
+  }
+  .section5items {
+      height: 665px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 49% 49%;
+    gap: 2% 20px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "phone1 phone1 phone2 phone3 phone4"
+      "phone5 phone6 phone7 phone8 phone9";
+  }
+  
+  #phone1 {
+    grid-area: phone1;
+    background-color: white;
+    border-radius: 15px;
+  }
+  #phone2 {
+    grid-area: phone2;
+  }
+  
+  #phone3 {
+    grid-area: phone3;
+  }
+  
+  #phone4 {
+    grid-area: phone4;
+  }
+  
+  #phone5 {
+    grid-area: phone5;
+  }
+  
+  #phone6 {
+    grid-area: phone6;
+  }
+  
+  #phone7 {
+    grid-area: phone7;
+  }
+  
+  #phone8 {
+    grid-area: phone8;
+  }
+  
+  #phone9 {
+    grid-area: phone9;
+  }
+  
+  .phone-card-image-large{
+      width: 100%;
+      height: 100%;
+      border-radius: 15px;
+  }
+  .phone-card-image{
+    width: 75%;
+    border-radius: 15px;
+    height: fit-content;
+    margin-top: 10px;
+  }
+  
+  .sec5phonedetails{
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border-radius: 15px;  
+    background-color: white;
+    border-radius: 15px;
+    transition: transform 250ms;
+    padding-bottom: 46px;
+    box-sizing: border-box;
+  }
+  .productoffer{
+    display: flex;
+    justify-content: center;
+  }
+  .offerprice{
+    color: White;
+    background: Red;
+    font-size: 12px;
+    padding: 4px 8px;
+    line-height: 0%;
+    border-radius: 12px;
+    height: 12px;
+  }
+  .offerprice p{
+    margin-top: 7px;
+  }
+  
+  .sec5phonedetails:hover{
+    transform: translateY(-5px);
+  }
+  
+  .section3img{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    
+  }
+  .section3phonedetails{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-between;
+  }
+  .section3phonename{
+    font-size: 16px;
+    font-weight: bold;
+    width: 99%;
+    height: 17px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .section3phoneprice{
+    font-size: 16px;
+    line-height: 20px;
+    color: #e6462e;
+    text-decoration: none;
+  }
+  .section3phoneprice span{
+
+    color: #777;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: line-through;
+  
+  }
+  

@@ -51,17 +51,16 @@
   grid-area: phone9;
 }
 
-
 .phone-card-image-large{
     width: 100%;
     height: 100%;
     border-radius: 15px;
 }
-
 .phone-card-image{
   width: 75%;
   border-radius: 15px;
   height: fit-content;
+  margin-top: 10px;
 }
 
 .phonedetails{
@@ -74,17 +73,31 @@
   border-radius: 15px;
   transition: transform 250ms;
 }
+.productoffer{
+  display: flex;
+  justify-content: center;
+}
+.offerprice{
+  color: White;
+  background: Red;
+  font-size: 12px;
+  padding: 4px 8px;
+  line-height: 0%;
+  border-radius: 12px;
+  height: 12px;
+}
+.offerprice p{
+  margin-top: 7px;
+}
 
-.phonedetails :hover{
-  transform: translateY(-10px);
+.phonedetails:hover{
+  transform: translateY(-5px);
 }
 
 .section3img{
-  margin-top: 20px;
   display: flex;
   justify-content: center;
   width: 100%;
-  top: 20px;
   
 }
 .section3phonedetails{
