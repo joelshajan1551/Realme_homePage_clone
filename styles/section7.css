@@ -1,0 +1,44 @@
+.section7 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.headingsec7 {
+  height: 80px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.sec7moreoption {
+  display: flex;
+  width: 60%;
+  justify-content: space-between;
+  flex-direction: row;
+}
+.sec7moreoption{
+    font-size: 16px;
+}
+.moreoption{
+    margin-bottom: -8px;
+    font-weight: bold;
+    position: relative;
+}
+.moreoption::before{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    width: 30%;
+    border-bottom: 2px solid #000;
+    margin-top: 10px;
+    left: 40%;
+}
+.more{
+  font-weight: bold;
+  font-size: 14px;
+  color: #666;
+
+}
+
+
