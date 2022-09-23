@@ -1,62 +1,168 @@
-.header{
-    display: flex;
-    background-color: rgb(255, 255, 255);
-    flex-direction: column;
+.header {
+  display: flex;
+  background-color: rgb(255, 255, 255);
+  flex-direction: column;
 }
 .head {
+  display: flex;
+  flex-direction: row;
+  font-size: 12px;
+  color: #666;
+  height: 36px;
+  align-items: center;
+  justify-content: center;
+}
+.head section div:hover {
+  color: rgb(255, 201, 21);
+  cursor: pointer;
+}
+.head span {
+  margin-left: 12px;
+  margin-right: 12px;
+  color: #666;
+}
+.headleft {
+  display: flex;
+  flex-direction: row;
+  margin-right: 512px;
+}
+.headright {
+  display: flex;
+  flex-direction: row;
+  margin-left: -127px;
+}
+.mainhead {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 60px;
+  background-color: white;
+  width: 1905px;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+  z-index: 1;
+}
+.leftmainhead,
+.rightmainhead,
+.bottommainhead {
+  display: flex;
+  flex-direction: row;
+  cursor: pointer;
+}
+.bottommainhead {
+  margin-left: 97px;
+  margin-right: 53px;
+  font-size: 14px;
+}
+
+.dropdown p,.bottommainhead p {
+  margin-right: 31px;
+}
+.dropdown p:hover {
+  color: rgb(255, 201, 21);
+}
+.dropdown {
+  position: relative;
+}
+.drop {
+  display: none;
+  position: absolute;
+  width: 99vw;
+  left: -551px;
+  top: 54px;
+  height: 390px;
+  z-index: 1;
+  justify-content: center;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  margin-top: -10px;
+}
+.dropcontent {
+  width: 60vw;
+  background-color: rgb(255, 255, 255);
+  height: 100%;
+  padding-top: 30px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+}
+.dropdown:hover .drop {
+  display: flex;
+  background-color: rgb(255, 255, 255);
+
+}
+.drop:hover{
+    display: flex;
+
+}
+.phoneseries {
+  background-color: white;
+  width: 16%;
+  height: 330px;
+  font-weight: 500;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.gt{
+    font-weight: bolder;
+}
+
+.gtseriesphones { 
+  width: 100%;
+  display: grid;
+  background-color: white;
+  padding-bottom: 40px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-auto-columns: 1fr;
+  gap: 30px 20px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "gt1 gt2 gt3"
+    "gt4 gt5 gt6"
+    "gt7 . .";
+}
+
+#gt1 { grid-area: gt1; }
+#gt2 { grid-area: gt2; }
+#gt3 { grid-area: gt3; }
+#gt4 { grid-area: gt4; }
+#gt5 { grid-area: gt5; }
+#gt6 { grid-area: gt6; }
+#gt7 { grid-area: gt7; }
+
+.gtphone{
+    background-color: rgb(255, 255, 255);
+    max-height: 75px;
+    max-width: 300px;
     display: flex;
     flex-direction: row;
+    align-items: center;
+}
+.dropphoneimg{
+    height: 100%;
+}
+.dropphonedetails{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-left: 20px;
+}
+.dropphonedetails p{
+    margin: 0%;
+}
+.dropphonestatus{
+    color: #2eb4cb;
+}
+.dropphoneprice{
+    font-style: normal;
     font-size: 12px;
-    color: #666;
-    height: 36px;
-    align-items: center;
-    justify-content: center;
+    color: #6a6a6a;
+    font-weight: 600;
 }
-.head section div:hover{
-    color: rgb(255,201,21);
-    cursor: pointer;
-}
-.head span{
-    margin-left: 12px;
-    margin-right: 12px;
-    color: #666;
-}
-.headleft{
-    display: flex;
-    flex-direction: row;
-    margin-right: 512px;
-}
-.headright{
-    display: flex;
-    flex-direction: row;
-    margin-left: -127px;
-}
-.mainhead{
-   display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    height: 60px;
-    background-color: white;
-    width: 1905px;
-    position: sticky;
-    position: -webkit-sticky;
-    top: 0;
-    z-index: 1;
-}
-.leftmainhead,.rightmainhead,.bottommainhead{
-    display: flex;
-    flex-direction: row;
-    cursor: pointer;
-}
-.bottommainhead{
-    margin-left: 97px;
-    margin-right: 53px;
+.dropphoneprice span{
+    color: #dd0b25;
     font-size: 14px;
-}
-.bottommainhead div{
-    margin-right: 31px;
-}
-.bottommainhead div:hover{
-    color: rgb(255,201,21);
 }
